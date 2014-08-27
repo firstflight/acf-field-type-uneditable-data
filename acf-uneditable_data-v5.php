@@ -132,7 +132,7 @@ class acf_field_uneditable_data extends acf_field {
 		*  Create a simple text input using the 'font_size' setting.
 		*/
 		
-    echo '<p>' . $field['value'] . '</p><hr/>';
+    echo '<p>' . $field['value'] . '</p>';
 
 	}
 	
@@ -533,12 +533,8 @@ class acf_field_uneditable_data extends acf_field {
 	}	
 	
 	*/
-	
-	
-}
 
+}
 
 // create field
 new acf_field_uneditable_data();
-
-?>

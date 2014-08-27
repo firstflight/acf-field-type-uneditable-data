@@ -373,5 +373,3 @@ class acf_field_uneditable_data extends acf_field {
 
 // create field
 new acf_field_uneditable_data();
-
-?>
